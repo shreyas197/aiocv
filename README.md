@@ -29,7 +29,7 @@ findHands(self,img=None,draw=True)
 ```
 #### If You Are Not Getting Desired Results, Consider Changing detectionConfidence = 1 and trackConfidence = 1
 #### Output :
-![Hand Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example4.png?raw=true)
+![Hand Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example4.png)
 #### Pose Detector
 ```python
 import aiocv
@@ -48,7 +48,7 @@ findPose(self,img=None,draw=True)
 ```
 #### If You Are Not Getting Desired Results, Consider Changing detectionConfidence = 1 and trackConfidence = 1
 #### Output :
-![Pose Track Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example3.png?raw=true)
+![Pose Track Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example3.png)
 #### Face Detection
 ```python
 import aiocv
@@ -67,7 +67,7 @@ findFace(self,img=None,draw=True)
 ```
 #### If You Are Not Getting Desired Results, Consider Changing detectionConfidence = 1
 #### Output :
-![Face Detection Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example1.png?raw=true)
+![Face Detection Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example1.png)
 #### Face Mesh
 ```python
 import aiocv
@@ -86,7 +86,7 @@ findFaceMesh(self,img=None,draw=True)
 ```
 #### If You Are Not Getting Desired Results, Consider Changing detectionConfidence = 1 and trackConfidence = 1
 #### Output :
-![Face Mesh Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example2.png?raw=true)
+![Face Mesh Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example2.png)
 #### Contour (Shape) Detection
 ```python
 import aiocv
@@ -100,7 +100,7 @@ cv2.imshow("Image",img)
 cv2.waitKey(0)
 ```
 #### Output :
-![Contour Detection Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example5.png?raw=true)
+![Contour Detection Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example5.png)
 #### Car Detection
 ```python
 import aiocv
@@ -118,7 +118,7 @@ cv2.waitKey(0)
 findCars(self,color=(255,0,0),thickness=2)
 ```
 #### Output :
-![Car Detection Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example9.png?raw=true)
+![Car Detection Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example9.png)
 #### Number Plate Detection
 ```python
 import aiocv
@@ -136,7 +136,7 @@ cv2.waitKey(0)
 findNumberPlate(self,color=(255,0,0),thickness=2)
 ```
 #### Output :
-![Number Plate Detection Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example6.png?raw=true)
+![Number Plate Detection Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example6.png)
 #### Smile Detection
 ```python
 import aiocv
@@ -154,7 +154,7 @@ cv2.waitKey(0)
 findSmile(self,color=(255,0,0),thickness=2)
 ```
 #### Output :
-![Smile Detection Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example7.png?raw=true)
+![Smile Detection Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example7.png)
 #### Eyes Detection
 ```python
 import aiocv
@@ -172,7 +172,7 @@ cv2.waitKey(0)
 findEyes(self,color=(255,0,0),thickness=2)
 ```
 #### Output :
-![Eyes Detection Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example8.png?raw=true)
+![Eyes Detection Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example8.png)
 #### Control Volume Using Gesture
 ```python
 import aiocv
@@ -191,7 +191,7 @@ gvc = aiocv.GestureVolumeControl(webcamIndex = 0)
 # If You Want To Control From Other Camera, Set The webcamIndex Accordingly.
 ```
 #### Output :
-![Gesture Volume Control Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example10.png?raw=true)
+![Gesture Volume Control Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example10.png)
 #### Read QR Code
 ```python
 import aiocv
@@ -213,7 +213,7 @@ findQRCode(self,color=(255,0,0),thickness=3)
 print(text)
 ```
 #### Output :
-![QR Code Detected Image](https://github.com/0xN1nja/aiocv/blob/main/examples/example11.png?raw=true)
+![QR Code Detected Image](https://raw.githubusercontent.com/0xN1nja/aiocv/master/examples/example11.png)
 ## Contributing
 Pull Requests Are Welcome. For Major Changes, Please Open An Issue First To Discuss What You Would Like To Change.
 
