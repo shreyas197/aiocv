@@ -5,6 +5,11 @@ Author : Abhimanyu Sharma
 GitHub : https://github.com/0xN1nja
 """
 import cv2
+path=__file__.split("\\")
+path.pop()
+path.pop()
+path.append("haarcascades")
+path="\\".join(path)
 class CarDetector():
     def __init__(self,img) -> None:
         self.img=img
@@ -14,7 +19,7 @@ class CarDetector():
         color = (255,0,0) Format : (B,G,R)
         thickness = 2 
         """
-        self.carsCascade=cv2.CascadeClassifier(r".\haarcascades\haarcascade_car.xml")
+        self.carsCascade=cv2.CascadeClassifier(fr"{path}\haarcascade_car.xml")
         self.cars=self.carsCascade.detectMultiScale(self.img,1.1,4)
         for x,y,w,h in self.cars:
             cv2.rectangle(self.img,(x,y),(x+w,y+h),color,thickness)
